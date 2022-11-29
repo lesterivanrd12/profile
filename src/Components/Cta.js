@@ -10,7 +10,7 @@ export default function CTA() {
           <div className="flex lg:mt-0 lg:flex-shrink-0">
             <div className="mt-8 px-3 flex gap-x-4 sm:justify-center">
                   <a
-                    href="#"
+                    href="#projects-section"
                     className="inline-block rounded-lg bg-indigo-600 px-10 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-indigo-600 hover:bg-indigo-700 hover:ring-indigo-700"
                   >
                     HIRE
@@ -21,7 +21,9 @@ export default function CTA() {
             </div>
             <div className="mt-8 px-3 flex gap-x-4 sm:justify-center">
                   <a
-                    href="#"
+                    href="https://www.linkedin.com/in/lester-ivan-dalaguit-69282720b/"
+                    target="_blank"
+                    rel='noreferrer'
                     className="inline-flex items-center justify-center rounded-md border border-transparent bg-white px-10 py-1.5 text-base font-medium text-indigo-600 hover:bg-indigo-50"
                   >
                     LEARN MORE

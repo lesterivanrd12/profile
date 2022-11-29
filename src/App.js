@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="App">
       <Home />
-      <Skills/>
+      <Skills />
       <Projects />
       <CTA />
     </div>
