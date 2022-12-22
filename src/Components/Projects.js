@@ -1,20 +1,4 @@
-import CentrusFs from '../img/CentrusFs.png';
-import IUNA from '../img/IUNA.png';
 
-/*
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/aspect-ratio'),
-    ],
-  }
-  ```
-*/
 
 // Model
 const projects = [
@@ -22,15 +6,29 @@ const projects = [
       id: 1,
       name: 'Centrus Financial Strategies',
       href: 'https://centrusfs.com/',
-      imageSrc: {CentrusFs},
+      imageSrc: "",
       imageAlt: "Centrus FS",
     },
     {
       id: 2,
       name: 'IUNA Biz',
       href: 'https://iuna.biz/',
-      imageSrc: {IUNA},
+      imageSrc: "",
       imageAlt: "IUNA Biz",
+    },
+    {
+      id: 3,
+      name: 'Twin Rams Media',
+      href: 'https://twinrams.com/',
+      imageSrc: "",
+      imageAlt: "Twin Rams Media",
+    },
+    {
+      id: 4,
+      name: 'Marketing Experts.ph',
+      href: 'https://marketingexperts.asia/',
+      imageSrc: "",
+      imageAlt: "Marketing Experts.ph",
     },
     // More projects...
   ]
