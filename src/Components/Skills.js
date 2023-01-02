@@ -1,15 +1,15 @@
-import css from '../img/css.png';
-import reactimg from '../img/reactimg.png';
-import bootstrap from '../img/bootstrap.png';
-import htmlimg from '../img/htmlimg.png';
-import js from '../img/js.png';
-import mongodb from '../img/mongodb.png';
-import nodejs from '../img/nodejs.png';
+import css from '../assets/img/css.png';
+import reactimg from '../assets/img/reactimg.png';
+import bootstrap from '../assets/img/bootstrap.png';
+import htmlimg from '../assets/img/htmlimg.png';
+import js from '../assets/img/js.png';
+import mongodb from '../assets/img/mongodb.png';
+import nodejs from '../assets/img/nodejs.png';
 import resume from '../assets/resume.pdf';
 
 export default function Skills() {
     return (
-      <div id='projects-section' className="relative overflow-hidden bg-white w-full pt-60">
+      <div id='skills-section' className="relative overflow-hidden bg-white w-full pt-60">
         <div className="pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
           <div className="relative mx-auto max-w-7xl px-4 sm:static sm:px-6 lg:px-8">
             <div className="sm:max-w-lg">

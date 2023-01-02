@@ -4,10 +4,10 @@ import { useState } from 'react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
 const navigation = [
-  { name: 'About', href: '#' },
-  { name: 'Skills', href: '#' },
-  { name: 'Projects', href: '#' },
-  { name: 'Contact', href: '#' },
+  { name: 'About', href: '#about' },
+  { name: 'Skills', href: '#skills-section' },
+  { name: 'Projects', href: '#projects-section' },
+  { name: 'Contact', href: '#contact' },
 ]
 
 export default function Home() {
@@ -39,16 +39,19 @@ export default function Home() {
         </div>
       </div>
       <main>
-        <div className="relative px-6 lg:px-8">
+        <div id='about' className="relative px-6 lg:px-8">
           <div className="mx-auto max-w-3xl pt-20 pb-32 sm:pt-48 sm:pb-40">
             <div>
               <div>
+
                 <h1 className="text-white text-4xl font-bold tracking-tight sm:text-center sm:text-6xl">
                   Front-end Developer
                 </h1>
+                
                 <p className="mt-6 text-lg leading-8 text-gray-200 sm:text-center">
                   I'm Lester Ivan, a Front-end Developer based in the Philippines who builds modern-day UI components. My knowledge leveraged in using HTML5, CSS, Javascript, and React JS library for building user interfaces. I am working closely with testers, designers, web designers, and project managers to create a robust and effective application.
                 </p>
+
                 <div className="mt-8 flex gap-x-4 sm:justify-center">
                   <a
                     href="#projects-section"
@@ -60,6 +63,7 @@ export default function Home() {
                     </span> */}
                   </a>
                 </div>
+
               </div>
             </div>
           </div>

@@ -7,7 +7,7 @@ export default function CTA() {
             <span className="text-slate-100 block">Ready to dive in?</span>
             <span className="block text-white">Start your free trial today.</span>
           </h2>
-          <div className="flex lg:mt-0 lg:flex-shrink-0">
+          <div id="contact" className="flex lg:mt-0 lg:flex-shrink-0">
             <div className="mt-8 px-3 flex gap-x-4 sm:justify-center">
                   <a
                     href="#projects-section"
